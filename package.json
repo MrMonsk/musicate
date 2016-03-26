@@ -2,11 +2,13 @@
   "name": "musicate",
   "version": "0.0.0",
   "description": "Music",
+  "repository": "MrMonsk/musicate",
   "main": "src/main.js",
   "dependencies": {
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
-    "react-router": "^2.0.1"
+    "react-router": "^2.0.1",
+    "vextab": "^2.0.11"
   },
   "devDependencies": {
     "bates": "git://github.com/mcamac/bates.git#c81816"

@@ -1,11 +1,11 @@
 import React from 'react'
 
+
 const App = React.createClass({
   render() {
     return (
-      <div style={{fontFamily: '"Helvetica Neue", serif'}}>
-        Hello?
-        It's me.ds
+      <div style={{fontFamily: '"Open Sans", serif'}}>
+        Musicate
         {this.props.children}
       </div>
     )
