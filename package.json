@@ -1,0 +1,21 @@
+{
+  "name": "musicate",
+  "version": "0.0.0",
+  "description": "Music",
+  "main": "src/main.js",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.1"
+  },
+  "devDependencies": {
+    "bates": "git://github.com/mcamac/bates.git#c81816"
+  },
+  "scripts": {
+    "test": "bates test",
+    "start": "node server.js",
+    "bates": "bates"
+  },
+  "author": "",
+  "license": "MIT"
+}
