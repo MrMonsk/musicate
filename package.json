@@ -11,7 +11,7 @@
     "vextab": "^2.0.11"
   },
   "devDependencies": {
-    "bates": "git://github.com/mcamac/bates.git#7f298b8"
+    "bates": "git://github.com/mcamac/bates.git#95a534b"
   },
   "scripts": {
     "test": "bates test",

@@ -1,5 +1,6 @@
 export About from './About'
 export App from './App'
 export Article from './Article'
-export Welcome from './Welcome'
+export ChordDetector from './ChordDetector'
 export Contact from './Contact'
+export Welcome from './Welcome'
