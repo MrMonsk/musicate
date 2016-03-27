@@ -1,4 +1,5 @@
 export About from './About'
 export App from './App'
+export Article from './Article'
 export Welcome from './Welcome'
 export Contact from './Contact'

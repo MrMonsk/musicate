@@ -1,7 +1,7 @@
 import React from 'react'
 import {Router, Route, IndexRoute, browserHistory} from 'react-router'
 
-import {About, App, Welcome, Contact} from '../components'
+import {About, App, Article, Welcome, Contact} from '../components'
 
 const Root = React.createClass({
   render() {
@@ -10,6 +10,7 @@ const Root = React.createClass({
         <Route path='/' component={App}>
           <Route path='about' component={About} />
           <Route path='contact' component={Contact} />
+          <Route path='article' component={Article} />
           <IndexRoute component={Welcome} />
         </Route>
       </Router>
