@@ -5,7 +5,7 @@ const Welcome = React.createClass({
   render() {
     return (
       <div>
-        Welcome to the best
+        <div>Welcome to the best</div>
         <Score />
         <Score />
         <Score />

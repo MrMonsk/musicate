@@ -1,0 +1,17 @@
+body {
+  background: white;
+}
+
+h1 {
+  color: #343444;
+}
+
+.homelinks a {
+  color: #4B5B6E;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.homelinks a:hover {
+  color: #CCCCCC;
+}
