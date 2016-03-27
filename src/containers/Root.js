@@ -10,7 +10,7 @@ const Root = React.createClass({
         <Route path='/' component={App}>
           <Route path='about' component={About} />
           <Route path='contact' component={Contact} />
-          <Route path='article' component={Article} />
+          <Route path='article/:id' component={Article} />
           <IndexRoute component={Welcome} />
         </Route>
       </Router>

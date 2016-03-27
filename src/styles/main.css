@@ -18,6 +18,15 @@ html {
   padding: 0 80px;
 }
 
+a {
+  color: #4B5B6E;
+  text-decoration: none;
+
+  &:hover {
+    color: #CCCCCC;
+  }
+}
+
 nav {
   line-height: 45px;
   padding: 15px 0;
@@ -37,14 +46,14 @@ nav {
 .homelinks {
   float: right;
   line-height: 45px;
+
+  a {
+    margin-left: 15px;
+  }
 }
 
-.homelinks a {
-  color: #4B5B6E;
-  margin: 0 5px;
-  text-decoration: none;
-}
-
-.homelinks a:hover {
-  color: #CCCCCC;
+.article {
+  .text {
+    line-height: 1.5em;
+  }
 }

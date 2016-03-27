@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router'
 import Score from './Score'
 
 const Welcome = React.createClass({
@@ -6,6 +7,7 @@ const Welcome = React.createClass({
     return (
       <div>
         <div>Welcome to the best</div>
+        <Link to='/article/coldplay'>Coldplay stuff</Link>
         <Score />
         <Score />
         <Score />
@@ -15,4 +17,3 @@ const Welcome = React.createClass({
 })
 
 export default Welcome
-
