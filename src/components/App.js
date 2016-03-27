@@ -10,6 +10,8 @@ const App = React.createClass({
           <div className='logo'>Musicate</div>
           <div className='homelinks'>
             <Link to='/'>Home</Link>
+            <Link to='/article/coldplay'>Articles</Link>
+            <Link to='/apps'>Apps</Link>
             <Link to='/about'>About</Link>
             <Link to='/contact'>Contact</Link>
           </div>
