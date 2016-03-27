@@ -5,13 +5,15 @@ import {Link} from 'react-router'
 const App = React.createClass({
   render() {
     return (
-      <div style={{fontFamily: '"Open Sans", serif', textAlign: 'center'}}>
-        <h1>Musicate</h1>
-        <div className='homelinks'>
-          <Link to='/'>Home</Link>
-          <Link to='/about'>About</Link>
-          <Link to='/contact'>Contact</Link>
-        </div>
+      <div className='container'>
+        <nav>
+          <div className='logo'>Musicate</div>
+          <div className='homelinks'>
+            <Link to='/'>Home</Link>
+            <Link to='/about'>About</Link>
+            <Link to='/contact'>Contact</Link>
+          </div>
+        </nav>
         {this.props.children}
       </div>
     )

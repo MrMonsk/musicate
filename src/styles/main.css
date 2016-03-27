@@ -1,9 +1,42 @@
 body {
   background: white;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-h1 {
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 80px;
+}
+
+nav {
+  line-height: 45px;
+  padding: 15px 0;
+}
+
+nav div {
+  display: inline-block;
+  line-height: 45px;
+}
+
+.logo {
   color: #343444;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+.homelinks {
+  float: right;
+  line-height: 45px;
 }
 
 .homelinks a {
