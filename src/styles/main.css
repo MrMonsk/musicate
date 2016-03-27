@@ -37,7 +37,7 @@ nav {
   }
 }
 
-.logo {
+.logo, .logo a, .logo a:hover {
   color: #343444;
   font-weight: 600;
   font-size: 28px;

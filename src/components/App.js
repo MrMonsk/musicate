@@ -7,7 +7,9 @@ const App = React.createClass({
     return (
       <div className='container'>
         <nav>
-          <div className='logo'>Musicate</div>
+          <div className='logo'>
+            <Link to='/'>Musicate</Link>
+          </div>
           <div className='homelinks'>
             <Link to='/'>Home</Link>
             <Link to='/article/coldplay'>Articles</Link>
