@@ -6,8 +6,14 @@ const Apps = React.createClass({
   render() {
     return (
       <div>
-        <Link to='/apps/analyzer'>Analyzer</Link>
-        <Link to='/apps/chord-detector'>Chord Dectector</Link>
+        <ul>
+          <li>
+            <Link to='/apps/analyzer'>Analyzer</Link>
+          </li>
+          <li>
+            <Link to='/apps/chord-detector'>Chord Dectector</Link>
+          </li>
+        </ul>
         <Score />
         <Score />
         <Score />
