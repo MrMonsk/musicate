@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Article = React.createClass({
+export default class Article extends React.Component {
   render() {
     return (
       <div className='article'>
@@ -15,6 +15,4 @@ const Article = React.createClass({
       </div>
     )
   }
-})
-
-export default Article
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router'
 
-export default class Analyzer extends React.Component ({
+export default class Analyzer extends React.Component {
   render() {
     return (
       <div className='analyzer'>
@@ -10,4 +10,4 @@ export default class Analyzer extends React.Component ({
       </div>
     )
   }
-})
+}

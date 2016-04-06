@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About = React.createClass({
+export default class About extends React.Component {
   render() {
     return (
       <div>
@@ -8,6 +8,5 @@ const About = React.createClass({
       </div>
     )
   }
-})
+}
   
-export default About

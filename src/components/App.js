@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router'
 
 
-const App = React.createClass({
+export default class App extends React.Component {
   render() {
     return (
       <div className='container'>
@@ -22,6 +22,4 @@ const App = React.createClass({
       </div>
     )
   }
-})
-
-export default App
+}

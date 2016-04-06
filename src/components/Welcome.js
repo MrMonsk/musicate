@@ -1,15 +1,17 @@
 import React from 'react'
 import {Link} from 'react-router'
+import Score from './Score'
 
-const Welcome = React.createClass({
+export default class Welcome extends React.Component {
   render() {
     return (
       <div>
-        <div>Musicate is a set of tools to simplify your music analyses</div>
+        <div>Welcome to the best</div>
         <Link to='/article/coldplay'>Coldplay stuff</Link>
+        <Score />
+        <Score />
+        <Score />
       </div>
     )
   }
-})
-
-export default Welcome
+}
