@@ -2,6 +2,9 @@ body {
   background: white;
   font-family: "Source Sans Pro", sans-serif;
 }
+h2 {
+  text-align: center;
+}
 
 html {
   box-sizing: border-box;

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router'
 
-const Analyzer = React.createClass({
+export default class Analyzer extends React.Component ({
   render() {
     return (
       <div className='analyzer'>
@@ -11,5 +11,3 @@ const Analyzer = React.createClass({
     )
   }
 })
-
-export default Analyzer
