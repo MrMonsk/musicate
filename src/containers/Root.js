@@ -3,7 +3,7 @@ import {Router, Route, IndexRoute, browserHistory} from 'react-router'
 
 import {About, App, Apps, Article, Welcome, Contact, ChordDetector, Analyzer} from '../components'
 
-const Root = React.createClass({
+export default class Root extends React.Component {
   render() {
     return (
       <Router history={browserHistory}>
@@ -19,6 +19,4 @@ const Root = React.createClass({
       </Router>
     )
   }
-})
-
-export default Root
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ChordDetector = React.createClass({
+export default class ChordDetector extends React.Component {
   render() {
     return (
       <div className='chord-detector'>
@@ -9,6 +9,4 @@ const ChordDetector = React.createClass({
       </div>
     )
   }
-})
-
-export default ChordDetector
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router'
 import Score from './Score'
 
-const Apps = React.createClass({
+export default class Apps extends React.Component {
   render() {
     return (
       <div>
@@ -20,6 +20,4 @@ const Apps = React.createClass({
       </div>
     )
   }
-})
-
-export default Apps
+}
